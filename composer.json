@@ -1,0 +1,25 @@
+{
+    "name": "juan/servicio-api",
+    "description": "Projecto de servicio API para intermunicacion entre aplicativos.",
+    "type": "project",
+    "license": "propetary",
+    "autoload": {
+        "psr-4": {
+            "Juan\\ServicioApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Oquendo",
+            "email": "oquendojuanjose@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/uid": "^6.0",
+        "symfony/dotenv": "^6.0",
+        "symfony/http-foundation": "^6.0",
+        "symfony/http-client": "^6.0",
+        "symfony/routing": "^6.0"
+    }
+}
